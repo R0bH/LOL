@@ -7,7 +7,7 @@ summoner_name = 'uberwold'
 @app.route('/')
 def home():
     value = [summoner_name,get_games_won(summoner_name)]
-    return render_template('home.html',value=value)
+    return render_template('index.html',value=value)
 
 @app.route('/about')
 def about():
