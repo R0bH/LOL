@@ -1,8 +1,12 @@
 from flask import Flask, render_template
+# Import the fixer
+from werkzeug.contrib.fixers import ProxyFix
+
 
 from access_api import get_games_won
 
 app = Flask(__name__)      
+app.wsgi_app = ProxyFix(app.wsgi_app)
 summoner_name = 'uberwold'
 @app.route('/')
 def home():
