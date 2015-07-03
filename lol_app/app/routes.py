@@ -23,8 +23,12 @@ def home():
         value = [summoner_name,get_games_won(summoner_name)]
         return render_template('stats.html',summoner_name=summoner_name,value=value)
 
-@app.route('/stats')
+@app.route('/about')
 def about():
+    return render_template('about.html' )
+
+@app.route('/stats')
+def stats():
     form = ContactForm()
     return render_template('stats.html', form=form )
 
