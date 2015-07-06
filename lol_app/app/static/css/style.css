@@ -201,6 +201,48 @@ ul.about-list li{
 ul.about-list li span{ 
 	margin-right: 10px;
 }
+/* return_stats section Section */
+#tf-return_stats_well{
+	padding: 80px 0;
+}
+ul.return_stats-list{ margin: 30px 0 0 ;}
+ul.return_stats-list li{
+	display: block;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+ul.return_stats-list li span{ 
+	margin-right: 10px;
+}
+/* About Section */
+#tf-return_stats_bad{
+	padding: 80px 0;
+}
+ul.about-list{ margin: 30px 0 0 ;}
+ul.about-list li{
+	display: block;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+ul.about-list li span{ 
+	margin-right: 10px;
+}
+/* About Section */
+#tf-return_stats_improve{
+	padding: 80px 0;
+}
+ul.about-list{ margin: 30px 0 0 ;}
+ul.about-list li{
+	display: block;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+ul.about-list li span{ 
+	margin-right: 10px;
+}
 
 /* Team Section */
 #tf-team{

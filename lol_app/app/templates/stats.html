@@ -89,17 +89,16 @@ l   <!-- bootstrap -->
 
     <!-- Greetings Summoner
     ==========================================-->
-    <div id="tf-about">
+    <div id="tf-return_stats_well">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="{{ url_for('static',filename='img/02.png') }}" class="img-responsive">
+                    <img src="{{ url_for('static',filename='img/thumbs_up.jpg') }}" class="img-responsive">
                 </div>
                 <div class="col-md-6">
                     <div class="about-text">
                         <div class="section-title">
-                            <h4>Greetings Summoner!</h4>
-                            <h2> Hello <strong> {{ summoner_name }}</strong></h2>
+                            <h2> <strong> Great Work!</strong></h2>
                             <hr>
                             <div class="clearfix"></div>
                         </div>
@@ -110,6 +109,45 @@ l   <!-- bootstrap -->
             </div>
         </div>
     </div>
+    <div id="tf-return_stats_bad">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static',filename='img/thumbs_down.png') }}" class="img-responsive">
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <h2>  <strong> But perhaps you could work on...</strong></h2>
+                            <hr>
+                            <div class="clearfix"></div>
+                        </div>
+                        <h4>You've not won {{ value[1][1] - value[1][0] }} of your last {{ value[1][1] }} games</h4>
+                        
+                  </div>
+                </div>
+            </div>
+        </div>
+    <div id="tf-return_stats_improve">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static',filename='img/work_on.png') }}" class="img-responsive">
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <h4>Greetings Summoner!</h4>
+                            <h2> <strong> Here's a pro tip</strong></h2>
+                            <hr>
+                            <div class="clearfix"></div>
+                        </div>
+                        <h4> Win the remaining games</h4>
+                        
+                  </div>
+                </div>
+            </div>
+        </div>
 
 
     <nav id="footer">
